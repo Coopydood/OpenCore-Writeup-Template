@@ -1,4 +1,4 @@
-# THIS IS A TEMPLATE!
+# 🚧 THIS IS A TEMPLATE!
 
 This repo is intended to be used as a template for those wanting to share their OpenCore EFI files with others on GitHub, also providing helpful setup information.
 
@@ -29,6 +29,12 @@ Other things to change:
 - The drivers you use in **UEFI**
 - A gallery of your working setup in **Gallery**
 - Your disclaimers in **Disclaimer**
+
+<br>
+
+### You can see a completed example of my setup here: [**OpenCore-Z490E-CometLake**](https://github.com/Coopydood/OpenCore-Z490E-CometLake)
+
+<br>
 
 **REMEMBER TO DELETE THIS SECTION BEFORE FINISHING!**
 
