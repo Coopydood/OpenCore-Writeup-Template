@@ -1,4 +1,42 @@
-# OpenCore CHIPSET_MODEL (MODEL_GENERATION)
+# THIS IS A TEMPLATE!
+
+This repo is intended to be used as a template for those wanting to share their OpenCore EFI files with others on GitHub, also providing helpful setup information.
+
+Things to replace:
+- ``CPU_MODEL`` (e.g. Intel® Core™ i9-10900K)
+- ``CPU_GENERATION`` (e.g. Comet Lake)
+- ``CHIPSET_MODEL`` (e.g. Z490)
+- ``GPU_MODEL`` (e.g. AMD RX 5700 XT)
+- ``GPU_INTEGRATED_MODEL`` (e.g. Intel UHD 630)
+- ``MOTHERBOARD_MODEL`` (e.g. ASUS ROG STRIX Z490-E GAMING)
+- ``VERSION_NAME`` (e.g. macOS Sonoma)
+- ``HOST_RAM`` (e.g. 64 GB DDR4 3200MHz)
+- ``STORAGE_MODEL`` (e.g. 500 GB WD Blue NVMe)
+- ``ETHERNET_MODEL`` (e.g. Intel I225-V 2.5Gb)
+- ``DISABLED_GPU_MODEL`` (e.g. NVIDIA RTX 3090)
+- ``SECURE_BOOT_MODEL`` (e.g. j185f)
+- ``BOOT_ARGS`` (e.g. ``-v keepsyms=1``)
+- ``MAC_MODEL`` (e.g. iMac20,2)
+
+Other things to change:
+- Problem list, including any fixes
+- Your SSDT tables in the **ACPI** section
+- Any added **DeviceProperties** sections
+- Any additional kexts you use in **Kernel**
+- Any patches you may have added in **Kernel**
+- Any other **NVRAM** contents
+- Your chosen **SMBIOS** Mac model, and why you chose it
+- The drivers you use in **UEFI**
+- A gallery of your working setup in **Gallery**
+- Your disclaimers in **Disclaimer**
+
+**REMEMBER TO DELETE THIS SECTION BEFORE FINISHING!**
+
+
+***
+
+
+# OpenCore CHIPSET_MODEL (CPU_GENERATION)
 OpenCore Hackintosh configuration example for the **MOTHERBOARD_MODEL** motherboard with a CPU_MODEL. 
 
 <img src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/af012dbc-dd39-474e-bb11-3f5ed0682cd3" alt="Image" width="1400"/>
@@ -10,12 +48,12 @@ OpenCore Hackintosh configuration example for the **MOTHERBOARD_MODEL** motherbo
 
 ### macOS
 
-- [ ] macOS VERSION_NAME
+- [ ] VERSION_NAME
 
 ### Hardware
 
-- [ ] Dedicated GPU (YOUR DGPU MODEL)
-- [ ] iGPU (YOUR IGPU MODEL)
+- [ ] Dedicated GPU (GPU_MODEL)
+- [ ] iGPU (GPU_INTEGRATED_MODEL)
 - [ ] NVMe drives
 - [ ] SATA drives
 - [ ] USB 3.1 (XHCI)
@@ -76,7 +114,7 @@ The specs of the main system that the OpenCore configuration targets.
 |-----------------|:-------------------------------------------------------------:|
 | **CPU**         |                      CPU_MODEL                     |
 | **Chipset**     |                             CHIPSET_MODEL                            |
-| **Generation**  |                           MODEL_GENERATION                          |
+| **Generation**  |                           CPU_GENERATION                          |
 | **Memory**      |                       HOST_RAM                       |
 | **Storage**     |                     STORAGE_MODEL                    |
 | **GPU**         | GPU_MODEL<br>~~DISABLED_GPU_MODEL~~ * |
@@ -199,7 +237,7 @@ Contents stored in NVRAM.
 
 | **Key**                   | **Type** |                                    **Value**                                   |
 |---------------------------|:--------:|:------------------------------------------------------------------------------:|
-| boot-args                 |  String  | YOUR_BOOT_ARGS |
+| boot-args                 |  String  | BOOT_ARGS |
 
 ***
 
