@@ -54,7 +54,7 @@ OpenCore Hackintosh configuration example for the **MOTHERBOARD_MODEL** motherbo
 
 ### macOS
 
-- [ ] VERSION_NAME
+- [x] VERSION_NAME
 
 ### Hardware
 
