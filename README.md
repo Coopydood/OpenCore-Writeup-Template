@@ -9,7 +9,6 @@ Things to replace:
 - ``GPU_MODEL`` (e.g. AMD RX 5700 XT)
 - ``GPU_INTEGRATED_MODEL`` (e.g. Intel UHD 630)
 - ``MOTHERBOARD_MODEL`` (e.g. ASUS ROG STRIX Z490-E GAMING)
-- ``VERSION_NAME`` (e.g. macOS Sonoma)
 - ``HOST_RAM`` (e.g. 64 GB DDR4 3200MHz)
 - ``STORAGE_MODEL`` (e.g. 500 GB WD Blue NVMe)
 - ``ETHERNET_MODEL`` (e.g. Intel I225-V 2.5Gb)
@@ -17,6 +16,10 @@ Things to replace:
 - ``SECURE_BOOT_MODEL`` (e.g. j185f)
 - ``BOOT_ARGS`` (e.g. ``-v keepsyms=1``)
 - ``MAC_MODEL`` (e.g. iMac20,2)
+
+- ``VERSION_NAME`` (e.g. macOS Sonoma)
+- ``VERSION_NUMBER`` (e.g. 14.4.1)
+- ``OPENCORE_VERSION`` (e.g. 0.9.7)
 
 Other things to change:
 - Problem list, including any fixes
@@ -49,6 +52,54 @@ OpenCore Hackintosh configuration example for the **MOTHERBOARD_MODEL** motherbo
 <p align="center"><i>YOUR IMAGE HERE.</i></p>
 
 <br>
+
+***
+
+## OpenCore
+
+<img align="left" width="100" height="100" src="https://dortania.github.io/docs/latest/Logos/Logo.png">
+<img align="left" src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8f69f9b9-cf23-4e8b-adf3-95862a23e2ba" height=100 width=2 />
+<h3>OpenCore<br><sub>OPENCORE_VERSION</sub></h3>
+
+This is the version of OpenCore used, including bundled files. The included ``config.plist`` targets this version.
+<br>
+
+
+## macOS
+
+<img align="left" width="90" height="90" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/3e4f1a99-e2ac-4077-9e30-2e7296eca2c2">
+<!-- CHANGE THE IMAGE URL TO THE MAIN OS YOUR CONFIG TARGETS. IMAGE URL LIST BELOW! -->
+
+<img align="left" src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8f69f9b9-cf23-4e8b-adf3-95862a23e2ba" height=520 width=2 /> 
+<!-- CHANGE THE HEIGHT WHEN ADDING OR REMOVING SUPPORTED OSES TO THE LIST (Default: 520) -->
+
+<h3>VERSION_NAME<br><sub>VERSION_NUMBER</sub></h3>
+
+This is the version of macOS that this OpenCore configuration currently targets. Other versions of macOS that are compatible with are listed below.<br>
+
+#### Supported
+
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/aa49b5ba-6cca-4dab-bcfc-6bf21909e738"> 
+<h5>macOS Sonoma</h5>
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/4829ebb4-ce7f-4ecf-8309-d691c9361f6b"> 
+<h5>macOS Ventura</h5>
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/7d341cce-4370-4430-b3d5-bf1868afe4a3"> 
+<h5>macOS Monterey</h5>
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/79a7a051-0f5a-419e-8544-b51b1572d3b9"> 
+<h5>macOS Big Sur</h5>
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/cd8029e8-c256-4295-9908-37809d64dcfe"> 
+<h5>macOS Catalina</h5>
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/184bb2ef-c447-4cbd-b07c-8b4b096e3944"> 
+<h5>macOS Mojave</h5>
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/bd4a791d-1ac2-4a9a-8ee0-22e4d5f88cd3"> 
+<h5>macOS High Sierra</h5>
+<img align="left" width="35" height="35" src="https://github.com/Coopydood/OpenCore-Z490E-CometLake/assets/39441479/788860d8-207a-4d15-928a-ed78f08962cf"> 
+<h5>macOS Sierra</h5>
+
+<br>
+
+***
+
 
 ## What works?
 
