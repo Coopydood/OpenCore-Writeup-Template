@@ -105,7 +105,7 @@ This is the version of macOS that this OpenCore configuration currently targets.
 
 ### macOS
 
-- [ ] VERSION_NAME
+- [x] VERSION_NAME
 
 ### Hardware
 
