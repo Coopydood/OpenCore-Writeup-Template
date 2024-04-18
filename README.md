@@ -75,7 +75,7 @@ This is the version of OpenCore used, including bundled files. The included ``co
 
 <h3>VERSION_NAME<br><sub>VERSION_NUMBER</sub></h3>
 
-This is the version of macOS that this OpenCore configuration currently targets. Other versions of macOS that are compatible with are listed below.<br>
+This is the version of macOS that this OpenCore configuration currently targets. Other versions of macOS that are compatible with it are listed below.<br>
 
 #### Supported
 
